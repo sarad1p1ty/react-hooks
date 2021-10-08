@@ -4,7 +4,7 @@
 import * as React from 'react'
 
 function Greeting() {
-    // 💣 delete this variable declaration and replace it with a React.useState call
+  // 💣 delete this variable declaration and replace it with a React.useState call
   const [name, setName] = React.useState('')
 
   function handleChange(event) {
@@ -24,7 +24,7 @@ function Greeting() {
 }
 
 function App() {
-  return <Greeting/>
+  return <Greeting />
 }
 
 export default App
